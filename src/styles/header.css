@@ -1,14 +1,10 @@
-body{
-    margin: 0;
-    padding: 0;
 
-}
 
 header {
 
     display: flex;
     justify-content: space-between;
-    background-color: var(--color-grey0);
+    background-color: var(--color-grey0); 
     border-bottom: 2px solid var(--color-brand2);
     position: fixed;
     width: 100%;
@@ -20,7 +16,7 @@ header {
 
 .header__logo{
 
-    margin-left: 200px;
+    margin-left: 190px;
     margin-top: 10px;
     display: flex;
     align-items: center;
@@ -38,7 +34,7 @@ header {
 
     position: fixed;
     top: 10px;
-    right: 230px;
+    right: 200px;
     padding: 5px;
     
     border-radius: var( --border-radius);
