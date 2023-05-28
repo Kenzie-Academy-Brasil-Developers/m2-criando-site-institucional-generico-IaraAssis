@@ -1,0 +1,225 @@
+
+.color__text1{
+    color: var(--color-brand2);
+    font-family: var(--font-family);
+
+}
+.container__text1 > p{
+    
+    width: 500px;
+    height: 60px;
+    
+    line-height: var(--line-height-7);
+    font-size: var(--font-size-9);
+    color: var(--color-grey3);
+    font-weight: var(--font-weigth-3);
+    font-family: var(--font-family);
+    
+}
+
+
+
+.container__text2{
+
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--color-grey5);
+    
+    background-color: var(--color-grey0);
+
+
+}
+
+.container__text2 > h2{
+
+    margin-left: 194px;
+
+    color: var(--color-grey5);
+    font-family: var(--font-family);
+    font-size: var(--font-size-5);
+
+}
+
+.container__text2 > span > p{
+
+    margin-left: 200px;
+    margin-right: 200px;
+    padding: 40px;
+    width: 286px;
+    height: 50px;
+
+    line-height: var(--line-height-7);
+    font-size: var(--font-size-9);
+    color: var(--color-grey3);
+    font-weight: var(--font-weigth-2);
+    font-family: var(--font-family);
+
+}
+
+.container__sections{
+
+    height: 340px;
+    display: flex;
+    gap: 150px;
+    padding: 50px 150px ;
+    background-color: var(--color-grey1);
+
+
+}
+.container__text3 {
+
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+.container__text3 > h2{
+
+    margin-left: 42px;
+    font-size: var(--font-size-5);
+    color: var(--color-grey5);
+    font-weight: var(--font-weigth-1);
+    font-family: var(--font-family);
+}
+
+.container__text3 > p{
+
+    margin-left: 42px;
+    margin-top: 20px;
+    width: 230px;
+    line-height: var(--line-height-7);
+    font-size: var(--font-size-9);
+    color: var(--color-grey3);
+    font-weight: var(--font-weigth-2);
+    font-family: var(--font-family);
+
+}
+
+
+
+
+.container__quests{
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 75px;
+    height: 330px;
+    width: 100%;
+    text-align: center;
+
+
+}
+.quests__title{
+
+    margin-top: 15px;
+    color: var(--color-grey5);
+    font-size: var(--font-size-6);
+    font-family: var(--font-family);
+}
+.quests__paragraf{
+
+    margin-top: 20px;
+
+
+    line-height: var(--line-height-7);
+    font-size: var(--font-size-7);
+    color: var(--color-grey3);
+    font-weight: var(--font-weigth-2);
+    font-family: var(--font-family);
+}
+
+.container__students {
+
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    justify-content: column;
+    height: 400px;
+    background-color: var(--color-grey1);
+
+}
+
+.students__list{
+
+    height: 300px;
+}
+
+.students__name {
+
+    margin-bottom: 38px;
+    margin-left: 200px;
+
+    line-height: var(--line-height-7);
+    font-weight: var(--font-weigth-3);
+    font-family: var(--font-family);
+}
+
+
+.students__name > h3{
+    font-size: var(--font-size-6);
+    color: var(--color-grey5);
+    font-family: var(--font-family);
+}
+
+.students__name > p{
+
+    font-size: var(--font-size-7);
+    color: var(--color-grey4);
+    font-family: var(--font-family);
+}
+
+
+.container__text{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px;
+    height: 300px ;
+    gap: 43px;
+    
+
+}
+
+.students__text {
+
+    color: var(--color-grey5);
+    font-weight: var(--font-weigth-2);
+    font-size: var(--font-size-9);
+    font-family: var(--font-family);
+
+}
+
+.container__comments {
+    width: 150px;
+    height: 120px;
+
+    justify-items: end;
+    text-align: left;
+    padding: 30px;
+    margin-right: 200px;
+    margin-bottom: 100px;
+    
+    color: var(--color-grey3);
+    font-family: var(--font-family);
+    background-color: var(--color-brand1);
+}
+
+
+.container__comments > h2 {
+    margin-bottom: 5px;
+    font-size: var(--font-size-9);
+    font-family: var(--font-family);
+    
+}
+
+.container__comments > p {
+    margin-bottom: 0;
+    line-height: var(--line-height-7);
+    font-size: var(--font-size-7);
+    font-weight: var(--font-weigth-2);
+    font-family: var(--font-family);
+}
